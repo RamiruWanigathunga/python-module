@@ -3,7 +3,6 @@ print("Ramiru Damnada Wanigathunga")
 print("National School of Business Management Green University")
 
 # single line comment
-# This is a single line comment
 
 """
     This is a multi-line comment
