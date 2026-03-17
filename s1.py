@@ -1,3 +1,5 @@
+#Question 1
+
 print("Hello, World!")
 
 # single line commenbt
@@ -5,3 +7,9 @@ print("Hello, World!")
 """
     This is a multi-line comment
 """
+
+#Question 1
+a = 22
+b = 7
+
+print(a/b)
