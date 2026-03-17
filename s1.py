@@ -8,7 +8,7 @@ print("Hello, World!")
     This is a multi-line comment
 """
 
-#Question 1
+#Question 2
 a = 22
 b = 7
 
