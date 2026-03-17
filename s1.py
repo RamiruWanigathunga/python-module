@@ -7,9 +7,10 @@ print("National School of Business Management Green University")
 
 """
     This is a multi-line comment
-    We use comments in Python to explain what our code is doing, 
-    to make it easier for others to understand what we are trying to do, 
-    and to debug our code more easily.
+    This is a multi-line comment
+    This is a multi-line comment
+    This is a multi-line comment
+    
 """
 
 #Question 2
