@@ -2,7 +2,7 @@
 print("Ramiru Damnada Wanigathunga")
 print("ID: 37602")
 print("Programming Fundamentals Module")
-print("National School of Business Management Green University")
+print("NSBM Green University")
 
 # single line comment
 
@@ -47,6 +47,7 @@ print("Your age is: " + str(age))
 #The Bonus Question
 number_1 = float(input("Please enter the first number: "))
 number_2 = float(input("Please enter the second number: "))
+
 print("The sum of the two numbers is: " + str(number_1 + number_2))
 print("The difference of the two numbers is: " + str(number_1 - number_2))
 print("The product of the two numbers is: " + str(number_1 * number_2))
