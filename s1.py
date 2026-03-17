@@ -1,5 +1,7 @@
 #Question 1
 print("Ramiru Damnada Wanigathunga")
+print("ID: 37602")
+print("Programming Fundamentals Module")
 print("National School of Business Management Green University")
 
 # single line comment
@@ -19,7 +21,7 @@ print("Result of 22 divided by 7 is " + str(a/b))
 
 #Question 3
 operation = "sum"
-total = 9993
+total = a + b
 print("The " + operation + " of two numbers is " + str(total))
 
 #Question 4
