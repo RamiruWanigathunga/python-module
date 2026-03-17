@@ -1,5 +1,5 @@
 #Question 1
-print("Ayesha Wanigathunga")
+print("Ramiru Damnada Wanigathunga")
 print("National School of Business Management Green University")
 
 # single line comment
