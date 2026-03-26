@@ -97,7 +97,7 @@ if units<=30:
 elif units<=60:
     bill=(30*5)+((units-30)*10)+500
 elif units<=100:
-    bill=(30*5)+(30*10)+((units-60)*15)+500
+    bill=(35)+(30*10)+((units-60)*15)+500
 else:
     bill =(30*5)+(30*10)+(40*15)+((units-100)*50)+500
 print("electricity bill is : ", bill)
