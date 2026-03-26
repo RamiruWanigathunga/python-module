@@ -8,11 +8,9 @@ if a>b:
     print("Largest number is: ",a)
 elif a<b:
     print("Largest number is: ",b)
-elif a==b:
+else:
     print("Both numbers are equal.")
-else:    
-    print("Invalid input.")
-'''
+
 #Question 2
 #Write a Python program to check a person is eligible to vote or not.
 
@@ -25,3 +23,66 @@ if age.isdigit():
         print("You are not eligible to vote.")
 else:
     print("Invalid input. Please enter a valid age.")
+    
+#Question 3
+#Finding maximum of three numbers
+
+x=float(input("Enter the first number: "))
+y=float(input("Enter the second number: "))
+z=float(input("Enter the third number: "))
+if x>y:
+    if x>z:
+        print("The largest number is: ",x)
+    else:
+        print("The largest number is: ",z)
+else:
+    if y>z:
+        print("The largest number is: ",y)
+    else:
+        print("The largest number is: ",z)
+'''
+
+#When the student enters the marks, provide the grades based on the following criteria with nested if statements: 
+'''
+marks=float(input("Enter the marks: "))
+if marks>=75:
+    print("Grade: A")
+else:
+    if marks>=65:
+        print("Grade: B")
+    else:
+        if marks>=55:
+            print("Grade: C")
+        else:
+            if marks>=40:
+                print("Grade: D")
+            else:
+                print("Grade: F")
+'''
+
+#using elif statements
+'''
+marks=float(input("Enter the marks: "))
+if marks>=75:
+    print("Grade: A")
+elif marks>=65:
+    print("Grade: B")
+elif marks>=55:
+    print("Grade: C")
+elif marks>=40:
+    print("Grade: D")
+else:
+    print("Grade: F")
+'''
+
+#Question 5
+#Write a program to calculate the electricity bill of a house when consumed units according to the following criteria. 
+
+units=float(input("Enter the number of units consumed: "))
+if units<=50:
+    bill=units*10 + 1000
+elif units<=90:
+    bill=50*10 + (units-50)*15 + 1000
+else:
+    bill=50*10 + 40*15 + (units-90)*50 + 1000
+print("Electricity bill is: ",bill)
