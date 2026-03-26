@@ -78,11 +78,26 @@ else:
 #Question 5
 #Write a program to calculate the electricity bill of a house when consumed units according to the following criteria. 
 
+'''
 units=float(input("Enter the number of units consumed: "))
 if units<=50:
-    bill=units*10 + 1000
+    bill=units*10 
 elif units<=90:
-    bill=50*10 + (units-50)*15 + 1000
+    bill=50*10 + (units-50)*15
 else:
-    bill=50*10 + 40*15 + (units-90)*50 + 1000
-print("Electricity bill is: ",bill)
+    bill=50*10 + 40*15 + (units-90)*50
+print("Electricity bill is: ",bill + 1000)
+'''
+
+#Assessment 1
+
+units = int(input("Enter the number of units consumed: "))
+if units<=30:
+    bill=units*5+500
+elif units<=60:
+    bill=(30*5)+((units-30)*10)+500
+elif units<=100:
+    bill=(30*5)+(30*10)+((units-60)*15)+500
+else:
+    bill =(30*5)+(30*10)+(40*15)+((units-100)*50)+500
+print("electricity bill is : ", bill)
