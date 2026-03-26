@@ -2,9 +2,9 @@ a=float(input("Enter the first number: "))
 b=float(input("Enter the second number: "))
 
 if a>b:
-    print("The first number is greater than the second number.")
+    print("Largest number is: ",a)
 elif a<b:
-    print("The second number is greater than the first number.")
+    print("Largest number is: ",b)
 elif a==b:
     print("Both numbers are equal.")
 else:    
